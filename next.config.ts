@@ -1,8 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  turbopack: false,
-  images: {
+const nextConfig: NextConfig = {  images: {
     unoptimized: true,
   },
   trailingSlash: true,
